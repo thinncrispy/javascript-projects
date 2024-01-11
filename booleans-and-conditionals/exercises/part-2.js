@@ -32,7 +32,7 @@ if (shuttleSpeed > 17500) {
 } else if (shuttleSpeed < 8000) {
     console.log("ALERT: Cannot maintain orbit!")
 } else {
-    console.log("Stable speed");
+    console.log("Stable  speed");
 }
 
 
