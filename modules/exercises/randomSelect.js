@@ -3,5 +3,5 @@ function randomFromArray(arr){
   return arr[index];
 }
 
-module.exports = randomFromArray;
+module.exports = {randomFromArray};
 //TODO: Export the randomFromArray function.

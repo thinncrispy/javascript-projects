@@ -31,7 +31,7 @@ for (let i = 0; i<prompts.length; i++){
         console.log(`${astronauts[j]}'s test average = ${avg}%.`);
       }
     } else {
-      let walker = randomSelect(astronauts);
+      let walker = randomSelect.randomFromArray(astronauts);
       console.log(`${walker} is the next spacewalker.`);
     }
   } else {
